@@ -20,6 +20,7 @@
             extend: {
               colors: {
                 clifford: '#ABEF5F',
+                bgcolor:'#f4f4f4',
               }
             }
           }
@@ -34,7 +35,7 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   
-                  <a class="btn btn-ghost text-xl font-bold text-[#212121]">
+                  <a class="btn btn-ghost text-2xl font-bold text-[#212121]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-black bg-clifford rounded-full p-1 text-xl">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
@@ -42,7 +43,7 @@
                     Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
+                  <ul class="menu menu-horizontal px-1 text-base">
                     <li class="text-black font-bold"><a>Home</a></li>
                     <li class="opacity-40"><a>Services</a></li>
                     <li class="opacity-40"><a>Portfolio</a></li>
@@ -94,9 +95,32 @@
                 </div>
               </div>
         </nav>
+        <!-- Hero section -->
+     <section class="mt-24">
+        <div class="w-11/12 mx-auto ">
+            <div class="flex flex-col items-center">
+                <img src="images/banner.png" alt="">
+                <div class="text-center space-y-7">
+                    <h1 class="text-3xl lg:text-6xl text-[#212121] font-extrabold">A barn house of this design has a <br>striking appearance</h1>
+                <p class="text-[#494949] font-medium text-sm lg:text-base ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+
+                <!-- btn section -->
+                <a class="btn bg-[#ABEF5F80] rounded-3xl w-full lg:w-[179px] text-xl font-semibold text-[#212121]">View Details
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-black bg-clifford rounded-full p-1 text-xl">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>  
+                  </a>
+                </div>
+
+            </div>
+
+         </div>
+     </section>
      </header>
      <!-- main section -->
-      <main></main>
+      <main class="bg-bgcolor">
+
+      </main>
       <!-- footer section -->
        <footer></footer>
 </body>
